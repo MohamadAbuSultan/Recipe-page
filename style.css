@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+
+.recipe {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+#Preparation {
+    background-color: #fbf4f4;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#Instructions,
+#Ingredients {
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+ul,
+ol {
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    text-indent: 20px;
+    margin-left: 5px;
+}
+
+@media (max-width: 624px) {
+    body {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .recipe {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #Preparation,
+    #Ingredients,
+    #Instructions,
+    #Nutrition,
+    #header {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 14px;
+    }
+}
